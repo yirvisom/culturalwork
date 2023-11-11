@@ -1,0 +1,45 @@
+@font-face {
+    src: url(/fonts/Tajawal/Tajawal-Medium.ttf);
+    font-family: Tajawal-Medium;
+}
+
+#image {
+    float: left;
+}
+
+header {
+    border: solid 3px;
+    background-color: #f30606;
+    border-radius: 17px;
+    display: flow-root;
+    color: white;
+}
+
+button {
+    background-color: white;
+    border-radius: 17px;
+    border: solid white;
+}
+
+button a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 30px;
+    background-color: blue;
+}
+
+a:active {
+    background-color: silver;
+    border: solid;
+    border-radius: 10px;
+}
+
+a:visited {
+    color: black;
+}
+
+li::marker {
+    content: "✅";
+}
